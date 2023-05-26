@@ -1,0 +1,76 @@
+Week 5 Project Idea
+CSE 121B JavaScript Language | Brother Joe Upshaw
+Bonnette Romero
+May 16, 2023
+
+My Idea:  Random Dad Joke Generator
+ API: 	https://rapidapi.com/collection/jokes (main site)
+	https://rapidapi.com/Bmbus/api/daddyjokes/  (possible API)
+	https://rapidapi.com/KegenGuyll/api/dad-jokes/  (possible API)
+
+<HTML> joke.html
+•	Create <h1> element “Random Dad Jokes”
+•	Create a button element<button>
+o	There will be a button on the page to generate the first joke, as the button is clicked a new joke will appear. 
+•	Create <footer> element My name, current date, class, school:  
+o	Ex: Bonnette Romero | May, 16, 2023 | BYU-Idaho | Brother Joe Upshaw
+<CSS> style.css
+•	Give simple style to the page.
+o	Background colors
+o	Set Font
+o	Position Button
+<JS> joke.js
+•	Create variable for the buttons, joke box, and API 
+o	const button  
+o	const jokeBox 
+o	const API
+•	Create a function to get random joke  
+o	randomJoke()
+o	Use the fetch method to get joke from API
+o	Return random joke
+•	Add event listener to HTML button
+https://www.section.io/engineering-education/random-joke-generator-a-complete-guide/ 
+
+
+Choosing your application
+What should I do?
+For this week your task is to choose a program to create. The scope should be fairly small...about 3 hours. What can you do?
+•	Start with interests.
+•	Ideas: random sentence generator, specialized timer, pull random word/image/etc from an API, pull random fact/joke from api (xkcd), pull information for a movie/song from API, Score card for your favorite game (farkl, yahtzee, etc), logging app for workouts/study time/meals/etc (look into localStorage), choose your own adventure game, your own version of Whack-a-mole (hit the dot), tip/sales tax calculator
+Your own API
+Often developers need to write the code to display information from external sources (APIS) before the external source is ready. Tools like mocky.io allow the developer to mock the external source without having to do a bunch of extra work.
+Third part APIs
+You have been tasked to come up with an idea for an application to write. There is a good chance that your application will be more useful if it can pull information from some source. If you are lucky a free open source might exist for the information you need. Something like the following for example:
+•	pokeapi.co: API with information from most of the Pokemon games
+•	swapi.dev: API with information from the Star Wars movies
+•	Hiking Project API
+•	USDA Food Data API
+•	...or many, many, others...
+If you want to use a free existing API talk with the instructor for tips.
+Make a list
+If you go back and review the gpa calculator app we wrote you will see that before we typed any lines of code we made a list of steps in plain language to guide us. Go review that briefly.
+As soon as you settle on an idea, you should do something similar for your application. Write down the steps in as much detail as you can before you start coding. The smaller the steps the better. If you get the steps small enough then each step will convert into one line of code, and your application will become very easy to create.
+
+
+https://coolors.co/000814
+000814 -Rich Black
+001D3D -Oxford Blue
+003566 -Yale Blue
+FFC300 -Mikado Yellow
+FFD60A -Gold
+
+
+Loom Video Link:
+https://www.loom.com/share/7c7bd726741b4c19b6f7b834df738f90
+
+font-family: 'Pangolin', cursive;
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+https://rapidapi.com/Bmbus/api/daddyjokes/  (possible API)
+https://rapidapi.com/KegenGuyll/api/dad-jokes/  (possible API)

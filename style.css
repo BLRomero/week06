@@ -1,0 +1,49 @@
+* {
+  font-family: "Pangolin", cursive;
+}
+body {
+  background-color: #ffd60a;
+  color: #000814;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#container {
+  height: auto;
+  width: 400px;
+  position: relative;
+  border: 3px solid #000814;
+  margin: auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#jokebox {
+  align-items: center;
+  border: 3px dotted white;
+  height: auto;
+  width: min 175px;
+  font-size: 24px;
+  color: #001d3d;
+  text-align: center;
+  padding: 20px;
+}
+input {
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  position: relative;
+  margin: 50px 120px 0 120px;
+  border: 2px solid white;
+}
+footer {
+  position: static;
+  bottom: 0px;
+  width: 400px;
+  text-align: center;
+  width: 100%;
+  padding-top: 20px;
+}
